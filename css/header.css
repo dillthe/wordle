@@ -1,0 +1,30 @@
+header {
+  border-bottom: 2px solid #ededef;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 10px;
+  margin: 10px;
+}
+
+.header-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.header-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
