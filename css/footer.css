@@ -1,0 +1,49 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 10px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d3d6da;
+  width: 40px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #d3d6da;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.back-space-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.keyboard-column_wide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d3d6da;
+  width: 60px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #d3d6da;
+  font-weight: bold;
+  font-size: smaller;
+}
